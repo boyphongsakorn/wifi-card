@@ -3,3 +3,28 @@ body {
   max-width: 500px;
   padding: 1em;
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  p {
+    color: white !important;
+  }
+  h2 {
+    color: white !important;
+  }
+  label {
+    color: white !important;
+  }
+  img {
+    filter: invert(1);
+  }
+  span {
+    color: white !important;
+  }
+  select {
+    background-color: white !important;
+  }
+}

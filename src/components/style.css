@@ -20,6 +20,13 @@
   max-width: 175px;
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  #print-area {
+    border-color: #555;
+    background-color: #333;
+  }
+}
+
 .hidden {
   display: none;
 }
