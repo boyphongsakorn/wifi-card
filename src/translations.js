@@ -996,7 +996,8 @@ export const Translations = [
       'wifi.password.hide': 'ซ่อนรหัสผ่าน WiFi บนการ์ด',
       'wifi.password.encryption': 'การเข้ารหัส',
       'wifi.password.encryption.none': 'ไม่มี',
-      'wifi.tip': 'หันกล้องของโทรศัพท์ไปที่ QR Code เพื่อเชื่อมต่อโดยอัตโนมัติ (ไม่สามารถสแกนผ่านแอป Line (ไลน์) ได้)',
+      'wifi.tip':
+        'หันกล้องของโทรศัพท์ไปที่ QR Code เพื่อเชื่อมต่อโดยอัตโนมัติ (ไม่สามารถสแกนผ่านแอป Line (ไลน์) ได้)',
       'wifi.alert.name': 'ต้องระบุชื่อเครือข่าย',
       'wifi.alert.password.length.5':
         'รหัสผ่านต้องมีอักขระอย่างน้อย 5 ตัว หรือเปลี่ยนการเข้ารหัสเป็น "ไม่มี"',
