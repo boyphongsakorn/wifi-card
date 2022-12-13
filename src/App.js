@@ -28,6 +28,8 @@ function App() {
     hiddenSSID: false,
     // Settings: Portrait orientation
     portrait: false,
+    // Settings: Hide Name
+    hideName: false,
   });
   const [errors, setErrors] = useState({
     ssidError: '',
@@ -120,6 +122,9 @@ function App() {
   const onHiddenSSIDChange = (hiddenSSID) => {
     setSettings({ ...settings, hiddenSSID });
   };
+  const onHideNameChange = (hideName) => {
+    setSettings({ ...settings, hideName });
+  };
   const onFirstLoad = () => {
     html.style.direction = htmlDirection();
     firstLoad.current = false;
@@ -173,6 +178,7 @@ function App() {
         onOrientationChange={onOrientationChange}
         onHidePasswordChange={onHidePasswordChange}
         onHiddenSSIDChange={onHiddenSSIDChange}
+        onHideNameChange={onHideNameChange}
       />
 
       <Button
