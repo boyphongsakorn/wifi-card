@@ -62,6 +62,11 @@ export const Settings = (props) => {
         checked={props.settings.hiddenSSID}
         onChange={() => props.onHiddenSSIDChange(!props.settings.hiddenSSID)}
       />
+      <Checkbox
+        label={t('wifi.name.hide')}
+        //checked={props.settings.hideSSID}
+        //onChange={() => props.onHideSSIDChange(!props.settings.hideSSID)}
+      />
       <RadioGroup
         label={t('wifi.password.encryption')}
         size={16}

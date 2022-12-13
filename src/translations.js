@@ -991,6 +991,7 @@ export const Translations = [
       'wifi.name': 'ชื่อเครือข่าย',
       'wifi.name.hiddenSSID': 'SSID ถูกซ่อนอยู่',
       'wifi.name.placeholder': 'ชื่อเครือข่าย WiFi',
+      'wifi.name.hide': 'ซ่อนชื่อเครือข่าย WiFi บนการ์ด',
       'wifi.password': 'รหัสผ่าน WiFi',
       'wifi.password.placeholder': 'รหัสผ่าน WiFi',
       'wifi.password.hide': 'ซ่อนรหัสผ่าน WiFi บนการ์ด',
